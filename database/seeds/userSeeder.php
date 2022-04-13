@@ -15,7 +15,7 @@ class userSeeder extends Seeder
         User::create([
                 'name' => 'test guru',
                 'role' => 'guru',
-                'email' => 'rizalihwan94@gmail.com',
+                'email' => 'guru@contoh.com',
                 'password' => bcrypt('password'),
                 'created_at' => now(),
                 'updated_at' => now()
